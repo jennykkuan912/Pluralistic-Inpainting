@@ -24,7 +24,8 @@ class ui_model(QtWidgets.QWidget, Ui_Form):
         self.opt.loadSize = [256, 256]
         self.visualizer = Visualizer(opt)
         self.model_name = ['celeba_center', 'paris_center', 'imagenet_center', 'place2_center',
-                           'celeba_random', 'paris_random','imagenet_random', 'place2_random']
+                           'celeba_random', 'paris_random','imagenet_random', 'place2_random', 
+                           'debugmode']
         self.img_root = './datasets/'
         self.img_files = ['celeba-hq', 'paris', 'imagenet', 'place2']
         self.graphicsView_2.setMaximumSize(self.opt.loadSize[0]+30, self.opt.loadSize[1]+30)

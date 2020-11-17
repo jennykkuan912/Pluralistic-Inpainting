@@ -170,6 +170,11 @@
         <string>Places2-random</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>debugmode</string>
+       </property>
+      </item>
      </widget>
     </item>
    </layout>
